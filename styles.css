@@ -1,0 +1,36 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: linear-gradient(
+    90deg,
+    rgba(99, 228, 46, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.title {
+  font-size: 5rem;
+  text-align: center;
+  color: #7545e1;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+.card{
+    width: 40rem;
+    height: 20rem;
+    background: #ddd;
+    margin: 1rem;
+    border-radius: 10px;
+
+}
